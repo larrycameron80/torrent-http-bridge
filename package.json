@@ -14,7 +14,8 @@
     "version:auto": "npm version $(conventional-recommended-bump --preset=angular)",
     "postversion": "git push --tags && git push",
     "publish:auto": "npm run version:auto && npm publish",
-    "prepublish": "npm run build"
+    "prepublish": "npm run snyk-protect && npm run build",
+    "snyk-protect": "snyk protect"
   },
   "czConfig": {
     "path": "node_modules/cz-conventional-changelog"
@@ -47,7 +48,8 @@
     "ut_metadata": "^2.7.4",
     "ut_pex": "^1.0.3",
     "xtend": "^4.0.0",
-    "zero-fill": "^2.2.1"
+    "zero-fill": "^2.2.1",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "babel": "^5.8.23",
@@ -74,5 +76,6 @@
   },
   "bugs": {
     "url": "https://github.com/blockai/torrent-http-bridge/issues"
-  }
+  },
+  "snyk": true
 }
