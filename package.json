@@ -34,7 +34,7 @@
     "debug": "^2.2.0",
     "hat": "0.0.3",
     "magnet-uri": "^5.0.0",
-    "nconf": "^0.8.2",
+    "nconf": "^0.11.0",
     "parallel": "^0.2.1",
     "parse-torrent": "^5.4.0",
     "random-iterate": "^1.0.1",
