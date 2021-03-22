@@ -29,7 +29,7 @@
     "bittorrent-dht": "^4.0.3",
     "bittorrent-protocol": "^1.5.12",
     "bittorrent-swarm": "^5.1.2",
-    "convict": "^1.0.1",
+    "convict": "^6.0.1",
     "create-torrent": "^3.15.1",
     "debug": "^2.2.0",
     "hat": "0.0.3",
