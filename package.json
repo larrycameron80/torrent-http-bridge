@@ -41,7 +41,7 @@
     "re-emitter": "^1.1.1",
     "run-parallel": "^1.1.4",
     "simple-get": "^1.4.3",
-    "torrent-discovery": "^3.3.1",
+    "torrent-discovery": "^8.3.0",
     "torrent-piece": "^1.0.0",
     "uniq": "^1.0.1",
     "ut_metadata": "^2.7.4",
